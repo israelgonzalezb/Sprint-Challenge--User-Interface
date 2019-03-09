@@ -78,6 +78,7 @@ a {
 }
 
 
+/* Start Header */
 
 header {
 	width: 100%;
@@ -96,13 +97,14 @@ header nav {
 	justify-content: space-around;
 }
 
-
-
-
-
 .header-img {
 	margin-bottom: 20px;
 }
+
+/* End Header */
+
+
+/* Start Top content */
 
 .top-content {
     display: flex;
@@ -117,6 +119,11 @@ header nav {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* End Top Content */
+
+
+/* Start Middle Content */
 
 .middle-content {
     margin-bottom: 20px;
@@ -145,6 +152,10 @@ header nav {
     justify-content: center;
 }
 
+/* End Middle Content */
+
+/* Start Bottom Content */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -158,6 +169,10 @@ header nav {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* End Bottom Content */
+
+/* Start Footer */
 
 footer {
     width: 100%;
@@ -176,4 +191,37 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* End Footer */
+
+#box1{ 
+	background-color:  teal;
+}
+ #box2{ 
+	 background-color:  gold;
+}
+ #box3{ 
+	 background-color:  cadetblue;
+}
+ #box4{ 
+	 background-color:  coral;
+}
+ #box5{ 
+	 background-color:  crimson;
+}
+ #box6{ 
+	 background-color:  forestgreen;
+}
+ #box7{ 
+	 background-color:  darkorchid;
+}
+ #box8{ 
+	 background-color:  hotpink;
+}
+ #box9{ 
+	 background-color:  indigo;
+}
+ #box10{ 
+	 background-color:  dodgerblue;
 }
