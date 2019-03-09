@@ -77,6 +77,8 @@ a {
     margin: 0 auto;
 }
 
+
+
 header {
 	width: 100%;
 	margin: 20px 0 40px 0;
@@ -84,8 +86,22 @@ header {
 
 header nav {
 	display: flex;
-	justify-content: space-between;
+/*	justify-content: */
 	align-items: baseline;
+}
+
+.menu {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+
+
+
+.header-img {
+	margin-bottom: 20px;
 }
 
 .top-content {
