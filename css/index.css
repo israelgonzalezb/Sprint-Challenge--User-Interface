@@ -72,6 +72,14 @@ a {
 	color: black;
 }
 
+button {
+	width: 120px;
+	height: 40px;
+	border-radius: 10px;
+	border-color: black;
+	border-width: thin;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -106,6 +114,12 @@ header nav {
 
 /* Start Top content */
 
+.about-top {
+	margin-bottom: 20px;
+	border-bottom: 1px dashed black;
+	padding-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -114,10 +128,19 @@ header nav {
     border-bottom: 1px dashed black;
 }
 
+.top-content.about{
+	justify-content: space-between;
+	border-bottom: none;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.text-container.about {
+	 border-bottom: 1px dashed black;
 }
 
 /* End Top Content */
@@ -168,6 +191,11 @@ header nav {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.about-bottom {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 /* End Bottom Content */
