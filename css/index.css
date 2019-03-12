@@ -66,9 +66,58 @@ p {
     line-height: 1.4;
 }
 
+a {
+	font-size: 14px;
+	text-decoration: none;
+	color: black;
+}
+
+button {
+	width: 120px;
+	height: 40px;
+	border-radius: 10px;
+	border-color: black;
+	border-width: thin;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+
+/* Start Header */
+
+header {
+	width: 100%;
+	margin: 20px 0 40px 0;
+}
+
+header nav {
+	display: flex;
+/*	justify-content: */
+	align-items: baseline;
+}
+
+.menu {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.header-img {
+	margin-bottom: 20px;
+}
+
+/* End Header */
+
+
+/* Start Top content */
+
+.about-top {
+	margin-bottom: 20px;
+	border-bottom: 1px dashed black;
+	padding-bottom: 20px;
 }
 
 .top-content {
@@ -79,11 +128,25 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.top-content.about{
+	justify-content: space-between;
+	border-bottom: none;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+.text-container.about {
+	 border-bottom: 1px dashed black;
+}
+
+/* End Top Content */
+
+
+/* Start Middle Content */
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +175,10 @@ p {
     justify-content: center;
 }
 
+/* End Middle Content */
+
+/* Start Bottom Content */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +192,15 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+.about-bottom {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* End Bottom Content */
+
+/* Start Footer */
 
 footer {
     width: 100%;
@@ -143,4 +219,37 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* End Footer */
+
+#box1{ 
+	background-color:  teal;
+}
+ #box2{ 
+	 background-color:  gold;
+}
+ #box3{ 
+	 background-color:  cadetblue;
+}
+ #box4{ 
+	 background-color:  coral;
+}
+ #box5{ 
+	 background-color:  crimson;
+}
+ #box6{ 
+	 background-color:  forestgreen;
+}
+ #box7{ 
+	 background-color:  darkorchid;
+}
+ #box8{ 
+	 background-color:  hotpink;
+}
+ #box9{ 
+	 background-color:  indigo;
+}
+ #box10{ 
+	 background-color:  dodgerblue;
 }
